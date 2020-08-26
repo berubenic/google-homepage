@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 1em;
+    display: grid;
+    grid-template-rows: 3em auto;
+    min-height: 100%;
+    
+}
+header {
+    height: auto;
+}
+.nav-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 7% 7% 60% repeat(4, 6.5%) ;
+    grid-template-areas: 
+    "c1 c2 ... c3 c4 c5 c6";
+    align-items: center;
+}
+.c1 {
+    grid-area: c1;
+}
+.c2 {
+    grid-area: c2;
+}
+.c3 {
+    grid-area: c3;
+}
+.c4 {
+    grid-area: c4;
+}
+.c5 {
+    grid-area: c5;
+}
+.c6 {
+    grid-area: c6;
+}
+.c1-r1 {
+    grid-area: c1-r1;
+}
+.c1-r2 {
+    grid-area: c1-r2;
+}
+.c2-r2 {
+    grid-area: c2-r2;
+}
+.c3-r2 {
+    grid-area: c3-r2;
+}
+.c4-r2 {
+    grid-area: c4-r2;
+}
+.c5-r2 {
+    grid-area: c5-r2;
+}
+.c6-r2 {
+    grid-area: c6-r2;
+}
+.c1-r3 {
+    grid-area: c1-r3;
+}
+.c2-r3 {
+    grid-area: c2-r3;
+}
+.c1-r4 {
+    grid-area: c1-r4;
+}
+.icon-img {
+    width: 50px;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 5% 45% 45% 5%;
+    grid-template-areas: 
+    "... c1-r1 c1-r1 ..."
+    "c1-r2 c2-r2 c2-r2 ..."
+    "... c1-r3 c2-r3 ..."
+    "... c1-r4 c1-r4 ...";
+    width: 60%;
+    margin: 0 auto;
+    grid-gap: 1em;
+    padding-top: 10em;
+    padding-bottom: 5em;
+}
+.google-logo { 
+    margin: 0 auto;
+}
+.search-bar {
+    width: 80%;
+    margin: 0 auto;
+}
+.lang-link {
+    margin: 0 auto;
+}
+.footer-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 15%) 31% repeat(3, 8%);
+    grid-template-areas: 
+    "c1-r1 ... ... ... ... ... ..."
+    "c1-r2 c2-r2 c3-r2 ... c4-r2 c5-r2 c6-r2";
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
