@@ -2,6 +2,8 @@ This is going to be a replica of a google search result webpage.
 
 I will deconstruct and rebuild a existing webpage.
 
+Recreate this page <Google.com>
+
 I will use HTML and CSS for this project.
 
 index.html will contain all the html.
